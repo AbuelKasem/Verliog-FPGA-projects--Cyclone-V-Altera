@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "countValue[0]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[1]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[2]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[3]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[4]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[5]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[6]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[7]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[8]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[9]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[10]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[11]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[12]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[13]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[14]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[15]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[16]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[17]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[18]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[19]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[20]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[21]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[22]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[23]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[24]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[25]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[26]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[27]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[28]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[29]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[30]",
+					"strict" : false
+				},
+				{
+					"name" : "countValue[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "n_clks[0]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[1]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[2]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[3]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[4]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[5]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[6]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[7]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[8]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[9]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[10]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[11]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[12]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[13]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[14]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[15]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[16]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[17]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[18]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[19]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[20]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[21]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[22]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[23]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[24]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[25]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[26]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[27]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[28]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[29]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[30]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clks[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_out",
+					"strict" : false
+				},
+				{
+					"name" : "clock_in",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

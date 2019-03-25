@@ -1,0 +1,14 @@
+|SEG_4bit
+code[0] => Decoder0.IN3
+code[1] => Decoder0.IN2
+code[2] => Decoder0.IN1
+code[3] => Decoder0.IN0
+decode[0] <= decode.DB_MAX_OUTPUT_PORT_TYPE
+decode[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+decode[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+decode[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+decode[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+decode[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+decode[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

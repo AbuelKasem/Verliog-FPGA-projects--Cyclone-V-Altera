@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/simulation
+vAdder1Bit
+Z1 !s110 1550661510
+!i10b 1
+!s100 ;`jnV?Fkk:k[6W`G1:6z=2
+IDQk@L8:9lgJ_jG^YBGLNQ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1550633038
+Z4 8C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/Lab3_4bit_cntr.v
+Z5 FC:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/Lab3_4bit_cntr.v
+L0 112
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1550661510.000000
+Z8 !s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/Lab3_4bit_cntr.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr|C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/Lab3_4bit_cntr.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr
+Z12 tCvgOpt 0
+n@adder1@bit
+vAdder4Bit
+R1
+!i10b 1
+!s100 TzUhXolY7zSN0aDOZf]_01
+IUPR_N33lWgiNHcXkKRofJ1
+R2
+R0
+R3
+R4
+R5
+L0 54
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@adder4@bit
+vLab3_4bit_cntr
+R1
+!i10b 1
+!s100 Be>OhIaZk=K`0F?ZeYL6U1
+IYY_PK`n>VbCTJfgQe3ZA@0
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@lab3_4bit_cntr
+vLab3_4bit_cntr_tb
+!s110 1550661511
+!i10b 1
+!s100 mmaXd1:f@]EW:8EQH:bJ82
+I]Jz9fk[@_>geM87i^>C^V3
+R2
+R0
+w1550661436
+8C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/simulation/Lab3_4bit_cntr_tb.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/simulation/Lab3_4bit_cntr_tb.v
+L0 31
+R6
+r1
+!s85 0
+31
+!s108 1550661511.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/simulation/Lab3_4bit_cntr_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/simulation|C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/simulation/Lab3_4bit_cntr_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_4bit_cntr/simulation
+R12
+n@lab3_4bit_cntr_tb

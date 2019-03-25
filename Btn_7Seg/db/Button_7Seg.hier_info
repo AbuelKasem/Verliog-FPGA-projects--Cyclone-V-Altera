@@ -1,0 +1,14 @@
+|Hex_7Seg
+hexValue[0] => Decoder0.IN3
+hexValue[1] => Decoder0.IN2
+hexValue[2] => Decoder0.IN1
+hexValue[3] => Decoder0.IN0
+sevenSeg[0] << WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+sevenSeg[1] << WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+sevenSeg[2] << WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+sevenSeg[3] << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+sevenSeg[4] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+sevenSeg[5] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+sevenSeg[6] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+|Moore
+clock => state~3.DATAIN
+reset => state~5.DATAIN
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

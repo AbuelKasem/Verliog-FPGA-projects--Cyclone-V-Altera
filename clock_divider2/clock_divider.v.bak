@@ -1,0 +1,52 @@
+module clock_divider(
+    
+    
+    input  clock_in,
+   
+ 
+	 input enable,  //enable counter
+	 input reset,
+	
+    output [31:0] n_clks,
+    
+    // output to servo pin
+    output   clock_out
+   
+);
+
+
+ localparam [31:0] div=2;
+ localparam [31:0] lim=2*div;
+  
+wire [31:0] current_N_clks;
+assign n_clks=current_N_clks;  //remove
+
+  /*always @ * begin
+case (duty_cycle) 
+8'd0: on_ticks = 32'd25; // for centre position , 0.5 ms * 50000 =25000 clks
+8'd1: on_ticks = 32'd75; // for -90, 1.5 ms * 50000 =75000 clks
+8'd2: on_ticks = 32'd125; // for +90, 2.5 ms * 50000 =125000 clks
+
+
+default: on_ticks = 32'd25; // 
+endcase
+end */
+
+CounterNBit #(
+    .WIDTH  (32),
+    .MAX_VALUE(lim)
+) clk_Counter (
+    .clock     (clock_in ),    
+    .reset     (reset ),
+    .enable    (enable),
+    .countValue(current_N_clks  )
+);
+
+Comparator32Bit clk_compare (
+
+     .a     (current_N_clks ),
+     .b         (div ),
+    .q(clock_out )
+);
+
+endmodule

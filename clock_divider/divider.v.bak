@@ -1,0 +1,15 @@
+define div(freq) ( \
+
+((freq) <=   100) ? 1 : \
+((freq) <=   50)  ? 2 : \
+((freq) <=   25)  ? 4 : 1)
+module divider #(
+  parameter freq=25,
+  parameter divisor=div(freq)
+  )(
+  output [31:0] ratio;
+  );
+  
+  ratio= divisor;
+  
+ 

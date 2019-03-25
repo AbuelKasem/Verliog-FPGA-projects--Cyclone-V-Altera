@@ -1,0 +1,17 @@
+
+
+module multiplier (
+
+input m[1:0],
+input q[2:0],
+output p[4:0]
+);
+
+
+
+
+
+
+
+
+end module

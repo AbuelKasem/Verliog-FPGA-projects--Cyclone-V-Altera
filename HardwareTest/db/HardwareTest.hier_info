@@ -1,0 +1,61 @@
+|Adder4Bit
+cin => cin.IN1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum[0] << Adder1Bit:bit0.sum
+sum[1] << Adder1Bit:bit1.sum
+sum[2] << Adder1Bit:bit2.sum
+sum[3] << Adder1Bit:bit3.sum
+cout << Adder1Bit:bit3.cout
+
+
+|Adder4Bit|Adder1Bit:bit0
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder4Bit|Adder1Bit:bit1
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder4Bit|Adder1Bit:bit2
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder4Bit|Adder1Bit:bit3
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

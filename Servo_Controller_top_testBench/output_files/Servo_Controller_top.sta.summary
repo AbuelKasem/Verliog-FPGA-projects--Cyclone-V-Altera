@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock'
+Slack : -7.183
+TNS   : -119.200
+
+Type  : Slow 1100mV 85C Model Setup 'servo_address[0]'
+Slack : -2.621
+TNS   : -10.188
+
+Type  : Slow 1100mV 85C Model Hold 'clock'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'servo_address[0]'
+Slack : 1.175
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'clock'
+Slack : -4.995
+TNS   : -229.439
+
+Type  : Slow 1100mV 85C Model Removal 'clock'
+Slack : 2.099
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.394
+TNS   : -25.533
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'load'
+Slack : -0.394
+TNS   : -6.182
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'servo_address[0]'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clock'
+Slack : -7.025
+TNS   : -118.110
+
+Type  : Slow 1100mV 0C Model Setup 'servo_address[0]'
+Slack : -2.784
+TNS   : -10.693
+
+Type  : Slow 1100mV 0C Model Hold 'clock'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'servo_address[0]'
+Slack : 1.247
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'clock'
+Slack : -4.741
+TNS   : -218.233
+
+Type  : Slow 1100mV 0C Model Removal 'clock'
+Slack : 1.937
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.394
+TNS   : -27.868
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'load'
+Slack : -0.394
+TNS   : -5.641
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'servo_address[0]'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clock'
+Slack : -3.651
+TNS   : -46.669
+
+Type  : Fast 1100mV 85C Model Setup 'servo_address[0]'
+Slack : -1.166
+TNS   : -4.160
+
+Type  : Fast 1100mV 85C Model Hold 'clock'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'servo_address[0]'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'clock'
+Slack : -2.370
+TNS   : -106.800
+
+Type  : Fast 1100mV 85C Model Removal 'clock'
+Slack : 1.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'load'
+Slack : -0.335
+TNS   : -3.194
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.090
+TNS   : -4.275
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'servo_address[0]'
+Slack : -0.026
+TNS   : -0.078
+
+Type  : Fast 1100mV 0C Model Setup 'clock'
+Slack : -3.386
+TNS   : -39.795
+
+Type  : Fast 1100mV 0C Model Setup 'servo_address[0]'
+Slack : -1.047
+TNS   : -3.756
+
+Type  : Fast 1100mV 0C Model Hold 'clock'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'servo_address[0]'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'clock'
+Slack : -2.214
+TNS   : -100.421
+
+Type  : Fast 1100mV 0C Model Removal 'clock'
+Slack : 1.020
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'load'
+Slack : -0.316
+TNS   : -3.002
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.087
+TNS   : -4.133
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'servo_address[0]'
+Slack : -0.005
+TNS   : -0.008
+
+------------------------------------------------------------

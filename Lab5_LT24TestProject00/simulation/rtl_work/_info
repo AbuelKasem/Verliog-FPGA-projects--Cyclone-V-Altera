@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation
+vLT24Display
+Z1 !s110 1551271439
+!i10b 1
+!s100 g0Ml0H`ILV7gf4e]j455d3
+IV6@46abbbZoYnTh5b06FR3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1514977534
+Z4 8C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Display.v
+Z5 FC:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Display.v
+L0 86
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1551271438.000000
+Z8 !s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Display.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00|C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Display.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00
+Z12 tCvgOpt 0
+n@l@t24@display
+vLT24DisplayInterface
+R1
+!i10b 1
+!s100 S52Fa_]jASRIg5HK3cSR53
+IS3TR6=F=D2887c8dGDNPX2
+R2
+R0
+R3
+R4
+R5
+L0 409
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@l@t24@display@interface
+vLT24FunctionalModel
+Z13 !s110 1551271440
+!i10b 1
+!s100 nT@I:=O^JHXgZ]h6H>>mV3
+ISbVJeQkT`[>?HOT9EHQTA0
+R2
+R0
+w1514977564
+8C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24FunctionalModel.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24FunctionalModel.v
+L0 21
+R6
+r1
+!s85 0
+31
+!s108 1551271440.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24FunctionalModel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation|C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24FunctionalModel.v|
+!i113 1
+R10
+Z14 !s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation
+R12
+n@l@t24@functional@model
+vLT24InitialData
+R1
+!i10b 1
+!s100 [PghI>V`k5H`AnPf[RPc_1
+I2EKS>VTZiMPjO55amYM<?1
+R2
+R0
+R3
+R4
+R5
+L0 523
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@l@t24@initial@data
+vLT24Top
+R1
+!i10b 1
+!s100 n8K3dflQ]<Mn@XKG?W2UO3
+I]kT;XRnAI9Z6NZn3LR5jR3
+R2
+R0
+Z15 w1550571280
+Z16 8C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Top.v
+Z17 FC:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Top.v
+L0 16
+R6
+r1
+!s85 0
+31
+Z18 !s108 1551271439.000000
+Z19 !s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Top.v|
+Z20 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00|C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Top.v|
+!i113 1
+R10
+R11
+R12
+n@l@t24@top
+vLT24Top_tb
+R13
+!i10b 1
+!s100 >jFl=z;:WDjK]o9ELg0IW2
+I_YDeXGd;6RADMOjAWH3YG3
+R2
+R0
+w1542191564
+8C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v
+L0 32
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation|C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v|
+!i113 1
+R10
+R14
+R12
+n@l@t24@top_tb
+vResetSynchroniser
+R1
+!i10b 1
+!s100 g4:GWhz>Y3NIW7bPP@X5E0
+I4^nZF3jLnM`hK<4R^BhIo1
+R2
+R0
+R3
+R4
+R5
+L0 493
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@reset@synchroniser
+vUpCounterNbit
+R1
+!i10b 1
+!s100 `Hj1E`_BNfD>zkIVg2YGJ2
+I2f?oUPZ;o;1PS3i02=09>3
+R2
+R0
+R15
+R16
+R17
+L0 155
+R6
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R10
+R11
+R12
+n@up@counter@nbit

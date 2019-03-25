@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at CounterNBit.v(26): always construct contains both blocking and non-blocking assignments File: C:/Users/Kasem/Documents/Quartus_Projects/Lab3-CounterNBit/CounterNBit.v Line: 26

@@ -1,0 +1,49 @@
+module clk_en_divider #(
+   parameter in_freq=50,
+	parameter out_freq=5,
+	parameter divisor=(in_freq/out_freq),
+	parameter Toggle_value=((divisor/2)),
+	parameter clks_per_micro=(out_freq /10),   // 1000000 number of clks per micro second based on desired frequency 
+	parameter PWM_cycleTime_microS=20,        // PWM cycle time =20ms = 20000 micro second , constant
+	parameter Ticks_per_cycle = (clks_per_micro*20),
+	// these are the on_time in clks of each cycle based on the required position
+	parameter Ticks_minus90_pos   = (5*clks_per_micro),   // -90 pos =0.5 ms =500 micro sec ,so number of ticks 
+	                                                       // of a position equal number of micros by number of ticks in one micro second
+	parameter Ticks_centre_pos   = (15*clks_per_micro),   // zero pos =1.5 ms =1500 micro second
+	parameter Ticks_plus90_pos   = (25*clks_per_micro)   // +90 pos =2.5 ms =2500 micro second  
+	
+
+)(
+
+     input in_clk,  // input clock
+	 input enable,  //enable counter
+	 input reset, 
+	output clk_en
+)
+
+
+
+reg {31:0] current_N_clks;
+CounterNBit #(
+    .WIDTH  (32),
+    .MAX_VALUE((Toggle_value))
+) clk_Counter (
+    .clock     (in_clk),    
+    .reset     (reset ),
+    .enable    (enable),
+	// .MAX_VALUE((2*Toggle_value)-1),
+    .countValue(current_N_clks  )
+);
+
+
+always @ (posedge in_clk or posedge reset) begin
+         if (reset)   begin
+						clk_en=1'b0;
+				end
+			else if 	(current_N_clks == (Toggle_value) ) begin
+			         clk_en =~`clk_en;
+			end
+			else    begin  clk_en =~clk_en;
+			end
+end
+			

@@ -1,0 +1,185 @@
+|F_ADDER_7SEG_L4_T5
+a_i[0] => a_i[0].IN2
+a_i[1] => a_i[1].IN2
+a_i[2] => a_i[2].IN2
+a_i[3] => a_i[3].IN2
+b_i[0] => b_i[0].IN2
+b_i[1] => b_i[1].IN2
+b_i[2] => b_i[2].IN2
+b_i[3] => b_i[3].IN2
+cin_i => cin_i.IN2
+A_o[0] <= SEG_4bit:var_a.decode
+A_o[1] <= SEG_4bit:var_a.decode
+A_o[2] <= SEG_4bit:var_a.decode
+A_o[3] <= SEG_4bit:var_a.decode
+A_o[4] <= SEG_4bit:var_a.decode
+A_o[5] <= SEG_4bit:var_a.decode
+A_o[6] <= SEG_4bit:var_a.decode
+B_o[0] <= SEG_4bit:var_b.decode
+B_o[1] <= SEG_4bit:var_b.decode
+B_o[2] <= SEG_4bit:var_b.decode
+B_o[3] <= SEG_4bit:var_b.decode
+B_o[4] <= SEG_4bit:var_b.decode
+B_o[5] <= SEG_4bit:var_b.decode
+B_o[6] <= SEG_4bit:var_b.decode
+CIN_o[0] <= SEG_4bit:var_cin.decode
+CIN_o[1] <= SEG_4bit:var_cin.decode
+CIN_o[2] <= SEG_4bit:var_cin.decode
+CIN_o[3] <= SEG_4bit:var_cin.decode
+CIN_o[4] <= SEG_4bit:var_cin.decode
+CIN_o[5] <= SEG_4bit:var_cin.decode
+CIN_o[6] <= SEG_4bit:var_cin.decode
+SUM[0] <= SEG_4bit:sum_Seg.decode
+SUM[1] <= SEG_4bit:sum_Seg.decode
+SUM[2] <= SEG_4bit:sum_Seg.decode
+SUM[3] <= SEG_4bit:sum_Seg.decode
+SUM[4] <= SEG_4bit:sum_Seg.decode
+SUM[5] <= SEG_4bit:sum_Seg.decode
+SUM[6] <= SEG_4bit:sum_Seg.decode
+COUT[0] <= SEG_4bit:cout_Seg.decode
+COUT[1] <= SEG_4bit:cout_Seg.decode
+COUT[2] <= SEG_4bit:cout_Seg.decode
+COUT[3] <= SEG_4bit:cout_Seg.decode
+COUT[4] <= SEG_4bit:cout_Seg.decode
+COUT[5] <= SEG_4bit:cout_Seg.decode
+COUT[6] <= SEG_4bit:cout_Seg.decode
+equ[0] <= <GND>
+equ[1] <= <VCC>
+equ[2] <= <VCC>
+equ[3] <= <GND>
+equ[4] <= <VCC>
+equ[5] <= <VCC>
+equ[6] <= <GND>
+
+
+|F_ADDER_7SEG_L4_T5|SEG_4bit:var_a
+code[0] => Decoder0.IN3
+code[1] => Decoder0.IN2
+code[2] => Decoder0.IN1
+code[3] => Decoder0.IN0
+decode[0] <= decode.DB_MAX_OUTPUT_PORT_TYPE
+decode[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+decode[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+decode[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+decode[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+decode[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+decode[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|SEG_4bit:var_b
+code[0] => Decoder0.IN3
+code[1] => Decoder0.IN2
+code[2] => Decoder0.IN1
+code[3] => Decoder0.IN0
+decode[0] <= decode.DB_MAX_OUTPUT_PORT_TYPE
+decode[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+decode[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+decode[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+decode[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+decode[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+decode[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|SEG_4bit:var_cin
+code[0] => Decoder0.IN3
+code[1] => Decoder0.IN2
+code[2] => Decoder0.IN1
+code[3] => Decoder0.IN0
+decode[0] <= decode.DB_MAX_OUTPUT_PORT_TYPE
+decode[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+decode[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+decode[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+decode[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+decode[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+decode[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|Adder4Bit:add_a_b
+cin => cin.IN1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum[0] <= Adder1Bit:bit0.sum
+sum[1] <= Adder1Bit:bit1.sum
+sum[2] <= Adder1Bit:bit2.sum
+sum[3] <= Adder1Bit:bit3.sum
+cout <= Adder1Bit:bit3.cout
+
+
+|F_ADDER_7SEG_L4_T5|Adder4Bit:add_a_b|Adder1Bit:bit0
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|Adder4Bit:add_a_b|Adder1Bit:bit1
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|Adder4Bit:add_a_b|Adder1Bit:bit2
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|Adder4Bit:add_a_b|Adder1Bit:bit3
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|SEG_4bit:sum_Seg
+code[0] => Decoder0.IN3
+code[1] => Decoder0.IN2
+code[2] => Decoder0.IN1
+code[3] => Decoder0.IN0
+decode[0] <= decode.DB_MAX_OUTPUT_PORT_TYPE
+decode[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+decode[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+decode[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+decode[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+decode[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+decode[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|F_ADDER_7SEG_L4_T5|SEG_4bit:cout_Seg
+code[0] => Decoder0.IN3
+code[1] => Decoder0.IN2
+code[2] => Decoder0.IN1
+code[3] => Decoder0.IN0
+decode[0] <= decode.DB_MAX_OUTPUT_PORT_TYPE
+decode[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+decode[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+decode[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+decode[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+decode[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+decode[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

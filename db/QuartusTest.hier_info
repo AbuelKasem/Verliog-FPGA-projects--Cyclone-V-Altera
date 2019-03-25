@@ -1,0 +1,14 @@
+|QuartusTest
+a => a.IN1
+b => b.IN1
+res << xor_ing:gate.res
+
+
+|QuartusTest|xor_ing:gate
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kasem/Documents/Quartus_Projects/clock_divider/simulation/modelsim
+vclock_divider
+Z1 !s110 1551843953
+!i10b 1
+!s100 4FKmc:kiDDzf[3KEU>MVc2
+IZdA<o]Zi]`F[53TL1M3jK0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551843904
+8C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/clock_divider.v
+FC:/Users/Kasem/Documents/Quartus_Projects/clock_divider/clock_divider.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1551843953.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/clock_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/clock_divider|C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/clock_divider.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/clock_divider
+Z7 tCvgOpt 0
+vclock_divider_tb
+R1
+!i10b 1
+!s100 <>YRPNR9?n?miimlKCoOz0
+I8zVDh:Og>m0IWdSfC=^z[0
+R2
+R0
+w1551843937
+8C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/simulation/clock_divider_tb.v
+FC:/Users/Kasem/Documents/Quartus_Projects/clock_divider/simulation/clock_divider_tb.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/simulation/clock_divider_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/simulation|C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/simulation/clock_divider_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/simulation
+R7
+vComparator32Bit
+R1
+!i10b 1
+!s100 :12:a9^XW7C0=QXNJ2ZKN2
+IC=o4:]UGFgFzZzdz<:BRM1
+R2
+R0
+w1551840264
+8C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/Comparator32Bit.v
+FC:/Users/Kasem/Documents/Quartus_Projects/clock_divider/Comparator32Bit.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/Comparator32Bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/clock_divider|C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/Comparator32Bit.v|
+!i113 1
+R5
+R6
+R7
+n@comparator32@bit
+vCounterNBit
+R1
+!i10b 1
+!s100 [lh?DEl7lH>ULBZRNO=@H2
+IGE[Z;>@i>=d6LKC_Go8eO1
+R2
+R0
+w1551835221
+8C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/CounterNBit.v
+FC:/Users/Kasem/Documents/Quartus_Projects/clock_divider/CounterNBit.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/CounterNBit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/clock_divider|C:/Users/Kasem/Documents/Quartus_Projects/clock_divider/CounterNBit.v|
+!i113 1
+R5
+R6
+R7
+n@counter@n@bit

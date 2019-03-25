@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/simulation/modelsim
+vDFlipFlop
+Z1 !s110 1550069856
+!i10b 1
+!s100 IDRQCU`TO_gcVVGD`FM]j2
+I`A:8AJ9CH<>e3V5cOIA<G3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1549450336
+8C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlop.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlop.v
+L0 9
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1550069856.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF|C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlop.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF
+Z7 tCvgOpt 0
+n@d@flip@flop
+vDFlipFlopWithAclr
+R1
+!i10b 1
+!s100 4NmX^ODk:JPA<j:3``NBl2
+IPJLea09ok`H[OERe1nJX=3
+R2
+R0
+w1549450344
+8C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlopWithAclr.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlopWithAclr.v
+L0 10
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlopWithAclr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF|C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/DFlipFlopWithAclr.v|
+!i113 1
+R5
+R6
+R7
+n@d@flip@flop@with@aclr
+vLab3_DFF
+Z8 !s110 1550069857
+!i10b 1
+!s100 FXR:L0l3Ul;QU4gnWOMGK3
+I]I0><`Vld_2OnEk8@2iE83
+R2
+R0
+w1550067346
+8C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/Lab3_DFF.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/Lab3_DFF.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1550069857.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/Lab3_DFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF|C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/Lab3_DFF.v|
+!i113 1
+R5
+R6
+R7
+n@lab3_@d@f@f
+vLab3_DFF_tb
+R8
+!i10b 1
+!s100 7Phb?2_P2jjE:A>0]Ybng2
+II:JACVWlR5lLe><5k6bUM2
+R2
+R0
+w1550069838
+8C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/simulation/Lab3_DFF_tb.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/simulation/Lab3_DFF_tb.v
+L0 31
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/simulation/Lab3_DFF_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/simulation|C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/simulation/Lab3_DFF_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab3_DFF/simulation
+R7
+n@lab3_@d@f@f_tb

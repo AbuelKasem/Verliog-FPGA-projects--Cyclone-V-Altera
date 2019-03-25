@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "servo_pwm",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[0]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[1]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[2]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[3]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[4]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[5]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[6]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[7]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[8]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[9]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[10]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[11]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[12]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[13]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[14]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[15]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[16]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[17]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[18]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[19]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[20]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[21]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[22]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[23]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[24]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[25]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[26]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[27]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[28]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[29]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[30]",
+					"strict" : false
+				},
+				{
+					"name" : "n_clkst[31]",
+					"strict" : false
+				},
+				{
+					"name" : "out_clkt",
+					"strict" : false
+				},
+				{
+					"name" : "in_clkt",
+					"strict" : false
+				},
+				{
+					"name" : "resett",
+					"strict" : false
+				},
+				{
+					"name" : "enablet",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

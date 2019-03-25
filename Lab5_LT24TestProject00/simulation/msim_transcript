@@ -1,0 +1,288 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# Reading C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/modelsim.tcl
+# do LT24TestProject_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00 {C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Display.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:58 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00" C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Display.v 
+# -- Compiling module LT24Display
+# -- Compiling module LT24DisplayInterface
+# -- Compiling module ResetSynchroniser
+# -- Compiling module LT24InitialData
+# 
+# Top level modules:
+# 	LT24Display
+# End time: 12:43:59 on Feb 27,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00 {C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:59 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00" C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/LT24Top.v 
+# -- Compiling module LT24Top
+# -- Compiling module UpCounterNbit
+# 
+# Top level modules:
+# 	LT24Top
+# End time: 12:43:59 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation {C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:59 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation" C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v 
+# -- Compiling module LT24Top_tb
+# 
+# Top level modules:
+# 	LT24Top_tb
+# End time: 12:44:00 on Feb 27,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation {C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24FunctionalModel.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:44:00 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation" C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24FunctionalModel.v 
+# -- Compiling module LT24FunctionalModel
+# 
+# Top level modules:
+# 	LT24FunctionalModel
+# End time: 12:44:00 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  LT24Top_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" LT24Top_tb 
+# Start time: 12:44:02 on Feb 27,2019
+# Loading work.LT24Top_tb
+# Loading work.LT24Top
+# Loading work.LT24Display
+# Loading work.ResetSynchroniser
+# Loading work.LT24InitialData
+# Loading work.LT24DisplayInterface
+# Loading work.UpCounterNbit
+# Loading work.LT24FunctionalModel
+# 
+# do C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/load_sim.tcl
+#
+# NativeLink Simulation Initialisation Script
+# ===========================================
+# By: Thomas Carpenter
+# Date: 31st December 2017
+# For: University of Leeds
+#
+# Description
+# ===========
+# This is a basic sample script for initialising a simulation
+#
+# All commands in this script will be executed, and comments will
+# be printed to the screen
+#
+# Most of the work in compiling is done by Quartus automatically.
+# Here we can add some extra commands.
+#
+# There is lots of stuff you can do, such as running initialisation
+# scripts, preparing memory contents, setting up the simulator.
+#
+# 
+#
+# First lets clean up any old NativeLink backup files. Quartus
+# creates a new backup file every time it runs. It never deletes
+# these files so you end up with an ever increasing number of them.
+#
+# The {*}[glob -nocomplain ... ] command performs wildcard matching
+# of filenames, to make sure we get all .bak files. The "-nocomplain"
+# and "catch {}" ensure that if no backups exist, there is no error.
+#
+# 
+# catch {file delete {*}[glob -nocomplain *_msim_rtl_verilog.do.bak*]}
+# 1
+# 
+#
+# Clear up an running simulation
+#
+# 
+# restart
+# 
+#
+# This will continue executing our script if a break point in the
+# simulation is reached - for example the $stop command in Verilog
+#
+# 
+# onbreak {resume}
+# 
+# 
+# Once you add signals to the Wave view to see them graphically
+# and got them all set up to your liking (Radix, arrangement, etc.)
+# it is possible to save that layout as a "Waveform Format Do File".
+# From modelsim if you click on the Wave window and File->Save Format
+# this will generate the "Do" file for you.
+#
+# I will assume that you saved the file with name "wave.do" (default)
+# in the simulation folder (same place as this TCL).
+#
+# Each time we run the simulation, we can run this file to restore 
+# the setup:
+#
+#   do <filename>
+#
+# Of course the first time you run the simulation the file might not
+# yet exist - you might never choose to save a format. So we also
+# first check if the file exists before do-ing it.
+# 
+# 
+# We normalise the filename to prevent issues with spaces in the filename
+# set waveFile [file normalize "./wave.do"]
+# C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/wave.do
+# 
+# if { [file exists $waveFile] } {
+#     #If the saved file exists, load it
+#     do $waveFile
+# } else {
+#     #Otherwise simply add all signals in the testbench formatted as unsigned decimal.
+#     add wave -radix unsigned -position insertpoint sim:/*
+# }
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -divider Clock/Reset
+# add wave -noupdate -label clock -radix hexadecimal /LT24Top_tb/clock
+# add wave -noupdate -label reset -radix hexadecimal /LT24Top_tb/reset
+# add wave -noupdate -label resetApp -radix hexadecimal /LT24Top_tb/resetApp
+# add wave -noupdate -divider LT24
+# add wave -noupdate -label LT24Wr_n -radix hexadecimal /LT24Top_tb/LT24Wr_n
+# add wave -noupdate -label LT24Rd_n -radix hexadecimal /LT24Top_tb/LT24Rd_n
+# add wave -noupdate -label LT24CS_n -radix hexadecimal /LT24Top_tb/LT24CS_n
+# add wave -noupdate -label LT24RS -radix hexadecimal /LT24Top_tb/LT24RS
+# add wave -noupdate -label LT24Reset_n -radix hexadecimal /LT24Top_tb/LT24Reset_n
+# add wave -noupdate -label LT24Data -radix hexadecimal /LT24Top_tb/LT24Data
+# add wave -noupdate -label LT24LCDOn -radix hexadecimal /LT24Top_tb/LT24LCDOn
+# add wave -noupdate -divider {Pattern Generation}
+# add wave -noupdate -label xAddr -radix decimal /LT24Top_tb/LT24Top_dut/xAddr
+# add wave -noupdate -label yAddr -radix decimal /LT24Top_tb/LT24Top_dut/yAddr
+# add wave -noupdate -label pixelReady -radix hexadecimal /LT24Top_tb/LT24Top_dut/pixelReady
+# add wave -noupdate -label pixelWrite -radix hexadecimal /LT24Top_tb/LT24Top_dut/pixelWrite
+# add wave -noupdate -label pixelData -radix hexadecimal /LT24Top_tb/LT24Top_dut/pixelData
+# add wave -noupdate -divider {Functional Model}
+# add wave -noupdate -label command -radix hexadecimal /LT24Top_tb/DisplayModel/command
+# add wave -noupdate -label payloadCntr -radix decimal /LT24Top_tb/DisplayModel/payloadCntr
+# add wave -noupdate -label xPtr -radix decimal /LT24Top_tb/DisplayModel/xPtr
+# add wave -noupdate -label yPtr -radix decimal /LT24Top_tb/DisplayModel/yPtr
+# add wave -noupdate -label pixelColour -radix hexadecimal /LT24Top_tb/DisplayModel/pixelColour
+# add wave -noupdate -label pixelWrite -radix hexadecimal /LT24Top_tb/DisplayModel/pixelWrite
+# add wave -noupdate -label mAddrCtl -radix binary -childformat {{{/LT24Top_tb/DisplayModel/mAddrCtl[7]} -radix hexadecimal} {{/LT24Top_tb/DisplayModel/mAddrCtl[6]} -radix hexadecimal} {{/LT24Top_tb/DisplayModel/mAddrCtl[5]} -radix hexadecimal} {{/LT24Top_tb/DisplayModel/mAddrCtl[4]} -radix hexadecimal} {{/LT24Top_tb/DisplayModel/mAddrCtl[3]} -radix hexadecimal} {{/LT24Top_tb/DisplayModel/mAddrCtl[2]} -radix hexadecimal} {{/LT24Top_tb/DisplayModel/mAddrCtl[1]} -radix hexadecimal} {{/LT24Top_tb/DisplayModel/mAddrCtl[0]} -radix hexadecimal}} -subitemconfig {{/LT24Top_tb/DisplayModel/mAddrCtl[7]} {-height 15 -radix hexadecimal} {/LT24Top_tb/DisplayModel/mAddrCtl[6]} {-height 15 -radix hexadecimal} {/LT24Top_tb/DisplayModel/mAddrCtl[5]} {-height 15 -radix hexadecimal} {/LT24Top_tb/DisplayModel/mAddrCtl[4]} {-height 15 -radix hexadecimal} {/LT24Top_tb/DisplayModel/mAddrCtl[3]} {-height 15 -radix hexadecimal} {/LT24Top_tb/DisplayModel/mAddrCtl[2]} {-height 15 -radix hexadecimal} {/LT24Top_tb/DisplayModel/mAddrCtl[1]} {-height 15 -radix hexadecimal} {/LT24Top_tb/DisplayModel/mAddrCtl[0]} {-height 15 -radix hexadecimal}} /LT24Top_tb/DisplayModel/mAddrCtl
+# add wave -noupdate -label xMin -radix decimal /LT24Top_tb/DisplayModel/xMin
+# add wave -noupdate -label xMax -radix decimal /LT24Top_tb/DisplayModel/xMax
+# add wave -noupdate -label yMin -radix decimal /LT24Top_tb/DisplayModel/yMin
+# add wave -noupdate -label yMax -radix decimal /LT24Top_tb/DisplayModel/yMax
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {19650000 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {21 us}
+# 
+#
+# Then we can configure the units for the timeline. Lets stick to
+# nanoseconds instead of the default of picoseconds.
+#
+# 
+# configure wave -timelineunits ns
+# 
+# 
+# Next we can start the simulation. We simply say "run".
+#
+# The "run" command can be followed by a time parameter, such as:
+#
+#     run 100ns     # Run for 100ns
+#     run -all      # Run until the testbench stops changing stimuli
+#     run 10        # Run for 10 "timesteps" (typically 1ps per step)
+#
+# ========== Simulation Starts Here ===========
+# 
+# run -all
+#                    0 ns	Simulation Started
+#                 4250 ns	Initialisation Complete
+#                 4610 ns	Pixel (    0,    0) = RGB { 0, 0, 0}
+#                 4930 ns	Pixel (    1,    0) = RGB { 0, 0, 0}
+#                 5250 ns	Pixel (    2,    0) = RGB { 0, 0, 0}
+#                 5570 ns	Pixel (    3,    0) = RGB { 0, 0, 0}
+#                 5890 ns	Pixel (    4,    0) = RGB { 0, 0, 0}
+#                 6210 ns	Pixel (    5,    0) = RGB { 0, 0, 0}
+#                 6530 ns	Pixel (    6,    0) = RGB { 0, 0, 0}
+#                 6850 ns	Pixel (    7,    0) = RGB { 0, 0, 0}
+#                 7170 ns	Pixel (    8,    0) = RGB { 0, 0, 0}
+#                 7490 ns	Pixel (    9,    0) = RGB {16, 0, 0}
+#                 7810 ns	Pixel (   10,    0) = RGB {16, 0, 0}
+#                 8130 ns	Pixel (   11,    0) = RGB {16, 0, 0}
+#                 8450 ns	Pixel (   12,    0) = RGB {16, 0, 0}
+#                 8770 ns	Pixel (   13,    0) = RGB {16, 0, 0}
+#                 9090 ns	Pixel (   14,    0) = RGB {16, 0, 0}
+#                 9410 ns	Pixel (   15,    0) = RGB {16, 0, 0}
+#                 9730 ns	Pixel (   16,    0) = RGB {16, 0, 0}
+#                10050 ns	Pixel (   17,    0) = RGB { 8, 0, 0}
+#                10370 ns	Pixel (   18,    0) = RGB { 8, 0, 0}
+#                10690 ns	Pixel (   19,    0) = RGB { 8, 0, 0}
+#                11010 ns	Pixel (   20,    0) = RGB { 8, 0, 0}
+#                11330 ns	Pixel (   21,    0) = RGB { 8, 0, 0}
+#                11650 ns	Pixel (   22,    0) = RGB { 8, 0, 0}
+#                11970 ns	Pixel (   23,    0) = RGB { 8, 0, 0}
+#                12290 ns	Pixel (   24,    0) = RGB { 8, 0, 0}
+#                12610 ns	Pixel (   25,    0) = RGB {24, 0, 0}
+#                12930 ns	Pixel (   26,    0) = RGB {24, 0, 0}
+#                13250 ns	Pixel (   27,    0) = RGB {24, 0, 0}
+#                13570 ns	Pixel (   28,    0) = RGB {24, 0, 0}
+#                13890 ns	Pixel (   29,    0) = RGB {24, 0, 0}
+#                14210 ns	Pixel (   30,    0) = RGB {24, 0, 0}
+#                14530 ns	Pixel (   31,    0) = RGB {24, 0, 0}
+#                14850 ns	Pixel (   32,    0) = RGB {24, 0, 0}
+#                15170 ns	Pixel (   33,    0) = RGB { 4, 0, 0}
+#                15490 ns	Pixel (   34,    0) = RGB { 4, 0, 0}
+#                15810 ns	Pixel (   35,    0) = RGB { 4, 0, 0}
+#                16130 ns	Pixel (   36,    0) = RGB { 4, 0, 0}
+#                16450 ns	Pixel (   37,    0) = RGB { 4, 0, 0}
+#                16770 ns	Pixel (   38,    0) = RGB { 4, 0, 0}
+#                17090 ns	Pixel (   39,    0) = RGB { 4, 0, 0}
+#                17410 ns	Pixel (   40,    0) = RGB { 4, 0, 0}
+#                17730 ns	Pixel (   41,    0) = RGB {20, 0, 0}
+#                18050 ns	Pixel (   42,    0) = RGB {20, 0, 0}
+#                18370 ns	Pixel (   43,    0) = RGB {20, 0, 0}
+#                18690 ns	Pixel (   44,    0) = RGB {20, 0, 0}
+#                19010 ns	Pixel (   45,    0) = RGB {20, 0, 0}
+#                19330 ns	Pixel (   46,    0) = RGB {20, 0, 0}
+#                19650 ns	Pixel (   47,    0) = RGB {20, 0, 0}
+#                19970 ns	Pixel (   48,    0) = RGB {20, 0, 0}
+# ** Note: $stop    : C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v(131)
+#    Time: 20 us  Iteration: 0  Instance: /LT24Top_tb
+# Break in Module LT24Top_tb at C:/Users/Kasem/Documents/Quartus_Projects/Lab5_LT24TestProject00/simulation/LT24Top_tb.v line 131
+# altEditor error: couldn't execute "C:\Program Files (x86)\Notepad++\notepad++.exe": no such file or directory
+# 
+# ========== Simulation Ends Here ===========
+#
+# Once the simulation finishes we will reach here
+#
+# Let's for example zoom out in the wave display to fit all data
+#
+# 
+# wave zoom full
+# 0 ps
+# 21 us
+# End time: 12:50:54 on Feb 27,2019, Elapsed time: 0:06:52
+# Errors: 1, Warnings: 0

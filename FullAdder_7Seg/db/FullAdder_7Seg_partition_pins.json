@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sevenSeg1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Carry_In",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

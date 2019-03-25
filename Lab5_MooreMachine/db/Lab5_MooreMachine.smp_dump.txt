@@ -1,0 +1,6 @@
+
+State Machine - |Moore|state
+Name state~7 state~6 
+state.A_STATE 0 0 
+state.B_STATE 0 1 
+state.C_STATE 1 0 

@@ -1,0 +1,28 @@
+|Button_7seg
+button[0] => invert[0].IN1
+button[1] => invert[1].IN1
+button[2] => invert[2].IN1
+button[3] => invert[3].IN1
+seg[0] << SEG_4bit:B_2_S.decode
+seg[1] << SEG_4bit:B_2_S.decode
+seg[2] << SEG_4bit:B_2_S.decode
+seg[3] << SEG_4bit:B_2_S.decode
+seg[4] << SEG_4bit:B_2_S.decode
+seg[5] << SEG_4bit:B_2_S.decode
+seg[6] << SEG_4bit:B_2_S.decode
+
+
+|Button_7seg|SEG_4bit:B_2_S
+code[0] => Decoder0.IN3
+code[1] => Decoder0.IN2
+code[2] => Decoder0.IN1
+code[3] => Decoder0.IN0
+decode[0] <= decode.DB_MAX_OUTPUT_PORT_TYPE
+decode[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+decode[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+decode[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+decode[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+decode[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+decode[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

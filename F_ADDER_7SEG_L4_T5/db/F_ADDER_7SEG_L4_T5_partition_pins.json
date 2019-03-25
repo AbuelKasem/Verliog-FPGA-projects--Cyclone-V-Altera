@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "B_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "B_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "B_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CIN_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CIN_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CIN_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CIN_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "COUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "COUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "COUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "COUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "a_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "a_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "a_i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a_i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "b_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "b_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "b_i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "b_i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cin_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

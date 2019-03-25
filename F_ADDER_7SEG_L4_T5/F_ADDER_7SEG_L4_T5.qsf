@@ -1,0 +1,108 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+# Date created = 00:06:51  February 21, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		F_ADDER_7SEG_L4_T5_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY F_ADDER_7SEG_L4_T5
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:06:51  FEBRUARY 21, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
+set_global_assignment -name VERILOG_FILE SEG_4bit.v
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BOARD "DE1-SoC Board"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE F_ADDER_7SEG_L4_T5.v
+set_global_assignment -name VERILOG_FILE Adder4Bit.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE Adder1Bit.v
+set_location_assignment PIN_AD10 -to cin_i
+set_location_assignment PIN_AB12 -to a_i[0]
+set_location_assignment PIN_AC12 -to a_i[1]
+set_location_assignment PIN_AF9 -to a_i[2]
+set_location_assignment PIN_AF10 -to a_i[3]
+set_location_assignment PIN_AC9 -to b_i[3]
+set_location_assignment PIN_AE11 -to b_i[2]
+set_location_assignment PIN_AD12 -to b_i[1]
+set_location_assignment PIN_AD11 -to b_i[0]
+set_location_assignment PIN_AA25 -to A_o[6]
+set_location_assignment PIN_AA26 -to A_o[5]
+set_location_assignment PIN_AB26 -to A_o[4]
+set_location_assignment PIN_AB27 -to A_o[3]
+set_location_assignment PIN_Y27 -to A_o[2]
+set_location_assignment PIN_AA28 -to A_o[1]
+set_location_assignment PIN_V25 -to A_o[0]
+set_location_assignment PIN_W25 -to B_o[6]
+set_location_assignment PIN_V23 -to B_o[5]
+set_location_assignment PIN_W24 -to B_o[4]
+set_location_assignment PIN_W22 -to B_o[3]
+set_location_assignment PIN_Y24 -to B_o[2]
+set_location_assignment PIN_Y23 -to B_o[1]
+set_location_assignment PIN_AA24 -to B_o[0]
+set_location_assignment PIN_AB22 -to CIN_o[6]
+set_location_assignment PIN_AB25 -to CIN_o[5]
+set_location_assignment PIN_AB28 -to CIN_o[4]
+set_location_assignment PIN_AC25 -to CIN_o[3]
+set_location_assignment PIN_AD25 -to CIN_o[2]
+set_location_assignment PIN_AC27 -to CIN_o[1]
+set_location_assignment PIN_AD26 -to CIN_o[0]
+set_location_assignment PIN_AD27 -to COUT[6]
+set_location_assignment PIN_AF30 -to COUT[5]
+set_location_assignment PIN_AF29 -to COUT[4]
+set_location_assignment PIN_AG30 -to COUT[3]
+set_location_assignment PIN_AH30 -to COUT[2]
+set_location_assignment PIN_AH29 -to COUT[1]
+set_location_assignment PIN_AJ29 -to COUT[0]
+set_location_assignment PIN_AH28 -to SUM[6]
+set_location_assignment PIN_AG28 -to SUM[5]
+set_location_assignment PIN_AF28 -to SUM[4]
+set_location_assignment PIN_AG27 -to SUM[3]
+set_location_assignment PIN_AE28 -to SUM[2]
+set_location_assignment PIN_AE27 -to SUM[1]
+set_location_assignment PIN_AE26 -to SUM[0]
+set_location_assignment PIN_AC30 -to equ[6]
+set_location_assignment PIN_AC29 -to equ[5]
+set_location_assignment PIN_AD30 -to equ[4]
+set_location_assignment PIN_AC28 -to equ[3]
+set_location_assignment PIN_AD29 -to equ[2]
+set_location_assignment PIN_AE29 -to equ[1]
+set_location_assignment PIN_AB23 -to equ[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

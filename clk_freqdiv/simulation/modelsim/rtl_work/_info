@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/simulation/modelsim
+vclk_freqdiv
+Z1 !s110 1551830252
+!i10b 1
+!s100 LGAZ1kdgBTaVj8laUg8fH2
+ID[AG7=4HR`X=0Tg2i?@800
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551830107
+8C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/clk_freqdiv.v
+FC:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/clk_freqdiv.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1551830252.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/clk_freqdiv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv|C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/clk_freqdiv.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv
+Z7 tCvgOpt 0
+vComparator32Bit
+R1
+!i10b 1
+!s100 ^QLMNQeU<7ckdh_HCLb<:3
+IjLON_;Xfi0<2L1Wo0;LMT0
+R2
+R0
+w1551821464
+8C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/Comparator32Bit.v
+FC:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/Comparator32Bit.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/Comparator32Bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv|C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/Comparator32Bit.v|
+!i113 1
+R5
+R6
+R7
+n@comparator32@bit
+vCounterNBit
+R1
+!i10b 1
+!s100 d>2ZPc@5dab5RJUY:e9Vn3
+IKh;aVGTE@aHB25N97?[kN0
+R2
+R0
+w1551821448
+8C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/CounterNBit.v
+FC:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/CounterNBit.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/CounterNBit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv|C:/Users/Kasem/Documents/Quartus_Projects/clk_freqdiv/CounterNBit.v|
+!i113 1
+R5
+R6
+R7
+n@counter@n@bit

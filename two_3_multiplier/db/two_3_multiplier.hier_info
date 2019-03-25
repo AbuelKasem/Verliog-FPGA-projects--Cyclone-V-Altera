@@ -1,0 +1,95 @@
+|two_3_multiplier
+m[0] => m[0].IN2
+m[1] => m[1].IN3
+q[0] => q[0].IN2
+q[1] => q[1].IN2
+q[2] => q[2].IN2
+p[0] << p.DB_MAX_OUTPUT_PORT_TYPE
+p[1] << first_row:r1.s
+p[2] << second_row:sr1.s
+p[3] << second_row:sr2.s
+p[4] << second_row:sr2.cout
+
+
+|two_3_multiplier|first_row:r1
+cin => cin.IN1
+m0 => linkA.IN0
+m1 => linkB.IN0
+q0 => linkB.IN1
+q1 => linkA.IN1
+s <= Adder1Bit:theAdder.sum
+cout <= Adder1Bit:theAdder.cout
+
+
+|two_3_multiplier|first_row:r1|Adder1Bit:theAdder
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|two_3_multiplier|first_row:r2
+cin => cin.IN1
+m0 => linkA.IN0
+m1 => linkB.IN0
+q0 => linkB.IN1
+q1 => linkA.IN1
+s <= Adder1Bit:theAdder.sum
+cout <= Adder1Bit:theAdder.cout
+
+
+|two_3_multiplier|first_row:r2|Adder1Bit:theAdder
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|two_3_multiplier|second_row:sr1
+cin => cin.IN1
+m => linkA.IN0
+q2 => linkA.IN1
+pp => pp.IN1
+s <= Adder1Bit:theAdder.sum
+cout <= Adder1Bit:theAdder.cout
+
+
+|two_3_multiplier|second_row:sr1|Adder1Bit:theAdder
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|two_3_multiplier|second_row:sr2
+cin => cin.IN1
+m => linkA.IN0
+q2 => linkA.IN1
+pp => pp.IN1
+s <= Adder1Bit:theAdder.sum
+cout <= Adder1Bit:theAdder.cout
+
+
+|two_3_multiplier|second_row:sr2|Adder1Bit:theAdder
+a => link1.IN0
+a => link2.IN0
+b => link1.IN1
+b => link2.IN1
+cin => comb.IN1
+cin => link3.IN1
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

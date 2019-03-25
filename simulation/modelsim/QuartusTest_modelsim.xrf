@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Kasem/Documents/Quartus_Projects/QuartusTest.sdc
+source_file = 1, C:/Users/Kasem/Documents/Quartus_Projects/QuartusTest.v
+source_file = 1, C:/Users/Kasem/Documents/Quartus_Projects/db/QuartusTest.cbx.xml
+design_name = QuartusTest
+instance = comp, \res~output , res~output, QuartusTest, 1
+instance = comp, \b~input , b~input, QuartusTest, 1
+instance = comp, \a~input , a~input, QuartusTest, 1
+instance = comp, \gate|res~0 , gate|res~0, QuartusTest, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, QuartusTest, 1

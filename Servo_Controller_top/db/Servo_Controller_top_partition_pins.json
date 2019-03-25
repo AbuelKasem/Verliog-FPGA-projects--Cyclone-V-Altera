@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "servo_pwm_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "servo_pwm_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "servo_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "servo_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "load",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

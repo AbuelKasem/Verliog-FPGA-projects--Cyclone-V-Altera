@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/simulation/modelsim
+vclk_en_divider
+Z1 !s110 1551966993
+!i10b 1
+!s100 zclVW_m=N`2FNR@V4BTBe3
+IOJ:9zk[c7fi3e0W3>z^;O3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551924232
+8C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/clk_en_divider.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/clk_en_divider.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1551966993.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/clk_en_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top|C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/clk_en_divider.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top
+Z7 tCvgOpt 0
+vCounterNBit
+Z8 !s110 1551966992
+!i10b 1
+!s100 @<Y;^hmoj9_XR<X4T3WI21
+I[XFSVfS_IaiT3m^H`PL=T0
+R2
+R0
+w1551903141
+8C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/CounterNBit.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/CounterNBit.v
+L0 9
+R3
+r1
+!s85 0
+31
+Z9 !s108 1551966992.000000
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/CounterNBit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top|C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/CounterNBit.v|
+!i113 1
+R5
+R6
+R7
+n@counter@n@bit
+vcycle_scaler
+R8
+!i10b 1
+!s100 <Sz_6cYzKBcZ8V3o]ED[40
+I=;j_hGM[nI@EKQh3R5[^I3
+R2
+R0
+w1551932202
+8C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/cycle_scaler.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/cycle_scaler.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/cycle_scaler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top|C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/cycle_scaler.v|
+!i113 1
+R5
+R6
+R7
+vServo_Controller
+R8
+!i10b 1
+!s100 D0IJaN?b]d>:69475oV@X2
+IXQ_G_hV@KBGTn8`AlK_L^1
+R2
+R0
+w1551935500
+8C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top|C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller.v|
+!i113 1
+R5
+R6
+R7
+n@servo_@controller
+vServo_Controller_top
+R1
+!i10b 1
+!s100 ;]]VK8o2X:iWH][B]YV`V0
+Ie9oeGbJ`Z>12:DiG:[U;;2
+R2
+R0
+w1551966954
+8C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller_top.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top|C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/Servo_Controller_top.v|
+!i113 1
+R5
+R6
+R7
+n@servo_@controller_top
+vServo_Controller_top_tb
+R1
+!i10b 1
+!s100 BmBleN]6zAaAP]2E4H:WK1
+I4AJWPT[CPN@QDL_0]fbmh0
+R2
+R0
+w1551966789
+8C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/simulation/Servo_Controller_top_tb.v
+FC:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/simulation/Servo_Controller_top_tb.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/simulation/Servo_Controller_top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/simulation|C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/simulation/Servo_Controller_top_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Kasem/Documents/Quartus_Projects/Servo_Controller_top/simulation
+R7
+n@servo_@controller_top_tb

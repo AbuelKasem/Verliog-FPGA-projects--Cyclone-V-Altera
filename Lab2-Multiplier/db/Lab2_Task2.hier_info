@@ -1,0 +1,72 @@
+|Lab2_Task2
+m[0] => m[0].IN2
+m[1] => m[1].IN3
+q[0] => q[0].IN2
+q[1] => q[1].IN2
+q[2] => q[2].IN2
+p[0] << <GND>
+p[1] << <GND>
+p[2] << <GND>
+p[3] << <GND>
+p[4] << <GND>
+
+
+|Lab2_Task2|Multiplier_FirstRowI:block_1
+m0 => Link_A.IN0
+m0 => p.IN0
+m1 => Link_B.IN0
+q0 => Link_B.IN1
+q0 => p.IN1
+q1 => Link_A.IN1
+cin => sum.IN1
+cin => link3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+p[0] <= p.DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+p[2] <= <GND>
+p[3] <= <GND>
+p[4] <= <GND>
+
+
+|Lab2_Task2|Multiplier_FirstRowII:block_2
+m0 => Link_A.IN0
+m1 => Link_B.IN0
+q0 => Link_B.IN1
+q1 => Link_A.IN1
+cin => sum1.IN1
+cin => link3.IN1
+sum1 <= sum1.DB_MAX_OUTPUT_PORT_TYPE
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab2_Task2|Multiplier_SecondRowI:block1
+m0 => Link_A.IN0
+q2 => Link_A.IN1
+cin => sum2.IN1
+cin => link3.IN1
+sum1 <= <GND>
+sum2 <= sum2.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= link3.DB_MAX_OUTPUT_PORT_TYPE
+p[0] <= <GND>
+p[1] <= <GND>
+p[2] <= sum2.DB_MAX_OUTPUT_PORT_TYPE
+p[3] <= <GND>
+p[4] <= <GND>
+
+
+|Lab2_Task2|Multiplier_SecondRowII:block2
+m0 => Link_A.IN0
+q2 => Link_A.IN1
+cin => sum3.IN1
+cin => link3.IN1
+cout1 <= <GND>
+sum3 <= sum3.DB_MAX_OUTPUT_PORT_TYPE
+cout3 <= link3.DB_MAX_OUTPUT_PORT_TYPE
+p[0] <= <GND>
+p[1] <= <GND>
+p[2] <= <GND>
+p[3] <= sum3.DB_MAX_OUTPUT_PORT_TYPE
+p[4] <= link3.DB_MAX_OUTPUT_PORT_TYPE
+
+

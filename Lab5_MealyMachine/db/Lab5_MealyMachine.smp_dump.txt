@@ -1,0 +1,5 @@
+
+State Machine - |Mealy|state
+Name state.B_STATE 
+state.A_STATE 0 
+state.B_STATE 1 

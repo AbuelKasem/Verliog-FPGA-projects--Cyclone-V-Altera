@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sevenSeg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sevenSeg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hexValue[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hexValue[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hexValue[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hexValue[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

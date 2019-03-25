@@ -1,0 +1,11 @@
+|Mealy
+clock => state~2.DATAIN
+reset => state~4.DATAIN
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+w => z.DATAA
+w => state.OUTPUTSELECT
+w => state.OUTPUTSELECT
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
